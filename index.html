@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Project</title>
+    <link rel="stylesheet" href="C:\Users\USER\Pictures\bootstrap\css\bootstrap.css">
+    <link rel="stylesheet" href="C:\Users\USER\Desktop\Desktop\DOM\dom class\Font-Awesome-master\css\all.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="C:\Users\USER\Pictures\bootstrap\js\jquery.min.js.js"></script>
+    <script src="C:\Users\USER\Pictures\bootstrap\js\proper.js"></script>
+    <script src="C:\Users\USER\Pictures\bootstrap\js\bootstrap.js"></script>
+</head>
+<body>
+    <!-- navbar -->
+    <div class="container-fluid" style="background-color: black;">
+        <nav class="navbar navbar-expand-lg navbar-success fixed-top" style="background-color: black;">
+            <a class="navbar-brand text-light" href="#">Frontend Bootcamp</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              
+              <img src="image1.jpg" alt="" class="navbar-toggler-icon">
+            </button>
+
+          <!-- javascript starts here -->
+          <div class="hidden-sm">
+            <div id="container-time" class="hidden-sm">
+              <!-- <div id="output">Monday</div> -->
+              <div id="date"></div>
+          </div>
+        </div>
+         <!-- Javascript ends here -->
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto mr-5">
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#what you'll learn">What You'll Learn</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#questions">Questions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#instructors">Instructors</a>
+                </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- home menu -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12" id="become">
+                    <div class="text-light">
+                        <h2>Become a <span class="text-warning">Web Developer</span></h2>
+                        <p>We focus on teaching our students the fundamentals of the latest and greatest technologies to prepare them for their first dev role</p>
+                        <a href="#">
+                            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Start The Enrollment
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        <h5 class="mb-4">Fill out this form and we will get back to you</h5>
+        <form action=""">
+            <label for="first name">First Name:</label><br>
+            <input type="text"><br>
+
+            <label for="last name">Last Name:</label><br>
+            <input type="text"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="text"><br>
+
+            <label for="number">Number:</label><br>
+            <input type="text"><br>
+        </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12 col-sm-12" >
+                    <div class="">
+                        <img src="C:\Users\USER\Desktop\Bootstrap project\IMG-20220822-WA0003_3.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- navbar 2 -->
+    <nav class="navbar navbar-light bg-primary">
+        <a class="navbar-brand text-light ml-3">Sign Up For Our Newsletter</a>
+        <form class="form-inline">
+          <input class="form-control mr-sm" type="search" placeholder="Enter Email" aria-label="Search" id="foorm">
+          <button class="btn btn-dark my-2 my-sm-0" type="submit">Button</button>
+        </form>
+      </nav>
+
+      <!-- card -->
+      <div class="container">
+  
+    <div class="row mt-5">
+        <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center pb-2 mb-3 text-light bg-dark">
+                <div class="card-body">
+                    <div class="img-area mb-4">
+                      <i class="fa fa-laptop" style="font-size: 3vw;"></i>
+                    </div>
+                    <h3 class="card-title">Virtual</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus omnis ab deleniti dignissimos blanditiis! Perspiciatis, est repellendus. Sit, sint error.</p>
+                    <button class="btn btn-primary mt-3">Read More</button>
+                </div>    
+            </div>        
+        </div> 
+        <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center pb-2 mb-3 text-light" id="cards">
+                <div class="card-body">
+                    <div class="img-area mb-4">
+                      <i class="fa fa-user" style="font-size: 3vw;"></i>
+                    </div>
+                    <h3 class="card-title">Hybrid</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus omnis ab deleniti dignissimos blanditiis! Perspiciatis, est repellendus. Sit, sint error.</p>
+                    <button class="btn btn-dark mt-3">Learn More</button>
+                </div>    
+            </div>        
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-dark pb-2 mb-3 text-light">
+                <div class="card-body">
+                    <div class="img-area mb-4">
+                        <i class="fa fa-users" style="font-size: 3vw;"></i>
+                    </div>
+                    <h3 class="card-title">In Person</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus omnis ab deleniti dignissimos blanditiis! Perspiciatis, est repellendus. Sit, sint error.</p>
+                    <button class="btn btn-primary mt-3">Learn More</button>
+                </div>    
+            </div>        
+        </div>           
+    </div>
+</div>
+
+ <!--  -->
+ <div class="container">
+  <div class="row mt-5">
+
+    <div class="col-lg-6 col-md-12 col-sm-12" >
+      <div class="">
+          <img src="image1.jpg" alt="" class="img-fluid">
+      </div>
+  </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="text-dark">
+              <h3><a name="what you'll learn"></a> Learn The fundamentals</h3>
+              <p>We focus on teaching our students the fundamentals of the latest and greatest technologies to prepare them for their first dev role</p>
+
+              <p>We focus on teaching our students the fundamentals of the latest and greatest technologies to prepare them for their first dev role. We focus on teaching our students the fundamentals of the latest and greatest technologies to prepare them for their first dev role</p>
+
+              <a href="#" class="btn btn-primary"><i class="fa fa-angle-right"></i>Read More</a>             
+</div>
+</div>
+</div>
+</div>
+
+<!-- react -->
+<div class="container-fluid">
+  <div class="row mt-5" style="background-color: black;">
+    <div class="col-lg-6 col-md-12 col-sm-12 mt-5" >
+      <div class=" text-light ml-5">
+          <h3 style="color: rgb(158, 239, 253);">Learn React</h3>
+          <p>We focus on teaching our students the fundamentals of the latest and greatest technologies to prepare them for their first dev role</p>
+          <a href="#" class="btn btn-light"><i class="fa fa-angle-right"></i> Read More </a> 
+      </div>
+  </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="text-dark">
+              <img src="rect2.jpg" alt="" class="img-fluid">
+</div>
+</div>
+</div>
+</div>
+      <!-- accordion -->
+    <div class="container mt-5">
+      <h3 class="text-center mb-3"><a name="questions"></a> Freqently Asked Questions</h3>
+      <div id="accordion">
+        <div class="card card-hover">
+          <div class="card-header">
+
+            <a href="#collapseOne" data-toggle="collapse" class="text-dark">What exactly are you located?</a>
+            <a href="#collapseOne" class="card-link float-right" data-toggle="collapse"><i class="fa fa-angle-down"></i></a>
+          </div>
+          <div class="collapse" id="collapseOne" data-parent="#accordion">
+            <div class="card-body text-dark">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia dolores exercitationem aut magnam, enim dolorem ut quaerat repellendus id doloribus! Blanditiis minima illo quas sed!
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <a href="#collapseTwo" data-toggle="collapse" class="text-dark">What do I need to know?</a>
+            <a href="#collapseTwo" class="card-link float-right" data-toggle="collapse"><i class="fa fa-angle-down"></i></a>
+          </div>
+          <div class="collapse" id="collapseTwo" data-parent="#accordion">
+            <div class="card-body">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia dolores exercitationem aut magnam, enim dolorem ut quaerat repellendus id doloribus! Blanditiis minima illo quas sed!
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <a href="#collapseThree" data-toggle="collapse" class="text-dark">How Do I sign up?</a>
+            <a href="#collapseThree" class="card-link float-right" data-toggle="collapse"><i class="fa fa-angle-down"></i></a>
+          </div>
+          <div class="collapse" id="collapseThree" data-parent="#accordion">
+            <div class="card-body">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia dolores exercitationem aut magnam, enim dolorem ut quaerat repellendus id doloribus! Blanditiis minima illo quas sed!
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <a href="#collapseFour" data-toggle="collapse" class="text-dark">Do you help me find a job?</a>
+            <a href="#collapseFour" class="card-link float-right" data-toggle="collapse"><i class="fa fa-angle-down"></i></a>
+          </div>
+          <div class="collapse" id="collapseFour" data-parent="#accordion">
+            <div class="card-body">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia dolores exercitationem aut magnam, enim dolorem ut quaerat repellendus id doloribus! Blanditiis minima illo quas sed!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- Our Instructor -->
+
+<div class="container-fluid mt-5" >
+  <div class="text-center text-dark bg-primary pt-5 col-md-12">
+  <h5 class="text-light"><a name="instructors"></a> Our Instructors</h5>
+  <p class="pb-4 text-light">Our instructors all have 5+ years working as a web developer in the industry</p>
+<!-- card -->
+  <div class="container">
+    <div class="row">
+        <div class="col-12 col-md 6 col-lg-3">
+            <div class="card card-text text-center mb-2">
+                <div class="card-body">
+                    <img src="profile-2.jpg" alt="" class="img-fluid rounded-circle">
+                    <h3 class="card-title py-3">David Bondy</h3>
+                    <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem magnam et, harum sunt ab fugiat. Natus dolore amet ea? Tempora?</div>
+
+                    <p class="socials text-dark mt-3">
+                        <i class="fab fa-facebook mx-1"></i>
+                        <i class="fab fa-twitter mx-1"></i>
+                        <i class="fab fa-instagram mx-1"></i>
+                        <i class="fab fa-linkedin mx-1"></i>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-12 col-md 6 col-lg-3 mb-2">
+            <div class="card card-text text-center">
+                <div class="card-body">
+                    <img src="profile-1.jpg" alt="" class="img-fluid rounded-circle">
+                    <h3 class="card-title py-3">David Bondy</h3>
+                    <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem magnam et, harum sunt ab fugiat. Natus dolore amet ea? Tempora?</div>
+
+                    <p class="socials text-dark mt-3">
+                        <i class="fab fa-facebook mx-1"></i>
+                        <i class="fab fa-twitter mx-1"></i>
+                        <i class="fab fa-instagram mx-1"></i>
+                        <i class="fab fa-linkedin mx-1"></i>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="col-12 col-md 6 col-lg-3 mb-2">
+            <div class=" card card-text text-center">
+                <div class="card-body">
+                    <img src="profile-3.jpg" alt="" class="img-fluid rounded-circle">
+                    <h3 class="card-title py-3">David Bondy</h3>
+                    <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem magnam et, harum sunt ab fugiat. Natus dolore amet ea? Tempora?</div>
+
+                    <p class="socials  text-dark mt-3">
+                        <i class="fab fa-facebook mx-1"></i>
+                        <i class="fab fa-twitter mx-1"></i>
+                        <i class="fab fa-instagram mx-1"></i>
+                        <i class="fab fa-linkedin mx-1"></i>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-12 col-md 6 col-lg-3 mb-2">
+            <div class=" card card-text text-center">
+                <div class="card-body">
+                    <img src="profile-1.jpg" alt="" class="img-fluid rounded-circle">
+                    <h3 class="card-title py-3">David Bondy</h3>
+                    <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem magnam et, harum sunt ab fugiat. Natus dolore amet ea? Tempora?</div>
+
+                    <p class="socials  text-dark mt-3">
+                        <i class="fab fa-facebook mx-1"></i>
+                        <i class="fab fa-twitter mx-1"></i>
+                        <i class="fab fa-instagram mx-1"></i>
+                        <i class="fab fa-linkedin mx-1"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+<!-- Contact Us -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 col-md-12 col-sm-6 mt-4" >
+      <div class="table">
+        <h3 class="text-center">Contact Info</h3>
+        <table class="table mt-4">
+          <tbody>
+              <tr>
+                  <td><b>Main Location:</b> 50 Main st Boston MA</td>
+              </tr>
+    
+              <tr>
+                  <td><b>Enrollment Phone:</b> (+234)7057-3232-13</td>
+              </tr>
+    
+              <tr>
+                    <td><b>Student Phone: </b>(+234)9069-5070-28</td>
+              </tr>
+    
+              <tr>
+                <td><b>Enrollment Email: </b>(555)enroll@frontendbc.test</td>
+             </tr>
+    
+             <tr>
+              <td><b>Student Email: </b>student@frontendbc.test</td>
+           </tr>
+          </tbody>
+      </table>
+      </div>
+  </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-6">
+          <div class="text-dark mb-4 ml-5 mt-5">
+              <img src="mapp.png" alt="" class="img-fluid" width="80%">
+</div>
+</div>
+</div>
+</div>
+
+<!-- footer -->
+<footer class="p-1 text-center mt-3" style="background:black; width: 100%;">
+  <div class="container-fluid">
+      <p class="text-white mt-3">Copyright &copy; 2022 Fontend Bootcamp</p>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

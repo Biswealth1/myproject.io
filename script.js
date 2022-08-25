@@ -1,0 +1,43 @@
+let x = document.getElementById('output');
+let y = document.getElementById('date');
+ 
+let d = new Date();
+let day = d.getDay();
+// let ndate = d.toLocaleDateString();
+// let ndate = d.toISOString();
+// let ndate = d.toISOString().split('T')[0];
+let ndate =d.toUTCString().split('T')[0];
+
+
+switch (day) {
+    case 0:
+        day = "Sunday";
+        break;
+
+        case 1:
+            day = "Monday";
+            break;
+             
+            case 2:
+                day = "Tueday";
+                break;
+
+                    case 3:
+                    day = "Wednesday";
+                    break;
+
+                        case 4:
+                            day = "Thursday";
+                            break;
+
+                                case 5:
+                     
+                                day = "Friday";
+                                    break;
+
+                                    case 6:
+                                    day = "Saturday";
+                                     break;
+}   
+// output.innerHTML = day;
+date.innerHTML = ndate;

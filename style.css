@@ -1,0 +1,59 @@
+input{
+    width: 100%;
+}
+
+label{
+    margin-bottom: 1rem;
+}
+
+#foorm{
+    width: 35vw;
+}
+
+.form-inline{
+    margin-right: 10vw;
+}
+#become{
+    margin-top: 5rem;
+}
+
+.card-body{
+    margin: 0;
+}
+.card-body p{
+    margin: 0;
+    width: 100%;
+    font-size: 1rem;
+    color: white;
+}
+
+.card-body button{
+    margin: 0;
+    padding: 5px;
+    width: 35%;
+    position: relative;
+    top: 0.8rem;
+    border-radius: 0;
+}
+
+#cards{
+    background-color: gray;
+}
+
+.card-header a{
+    text-decoration: none;
+}
+
+.card-header a .text-dark:hover{
+    color: skyblue;
+}
+
+tr:first-child{
+    border-top:hidden;
+}
+
+/* javascript time */
+#container-time{
+    color: white;
+    margin-left: 12rem;
+}
